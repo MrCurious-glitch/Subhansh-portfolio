@@ -10,10 +10,7 @@ import instagramIcon from '../../assets/instagram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://mydigitalgarage.online" className="logo">
-        <span>www.mydigitalgarage</span>
-        <span>.online</span>
-      </a>
+      
       <div>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
@@ -22,21 +19,21 @@ export function Footer() {
       </div>
       <div className="social-media">
         <a
-          href="https://www.linkedin.com/in/saurabh-sanap-159871179/"
+          href="https://www.linkedin.com/in/subhansh-chaurasia-62a2a016b"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
         </a>
         <a
-          href="https://github.com/Sonooo/"
+          href="https://github.com/MrCurious-glitch"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919579411158&text=Hello+Saurabh"
+          href="https://api.whatsapp.com/send/?phone=%2B916232963993&text=Hello+Saurabh"
           target="_blank"
           rel="noreferrer"
         >
@@ -49,13 +46,7 @@ export function Footer() {
         >
           <img src={telegram} alt="telegram" />
         </a>
-        <a
-          href="https://www.instagram.com/mostlyinsaneinsaan"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={instagramIcon} alt="Instagram" />
-        </a>
+        
       </div>
     </Container>
   )

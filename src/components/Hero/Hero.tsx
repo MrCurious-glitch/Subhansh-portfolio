@@ -19,7 +19,7 @@ export function Hero() {
           <h1>Subhnsh Chaurasia</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Full Stack Developer</h3>
+          <h3>Full stack Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume"> 3+ Years of Experience</p>
@@ -38,7 +38,7 @@ export function Hero() {
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
-          href="https://github.com/Sonooo/"
+          href="https://github.com/MrCurious-glitch"
           target="_blank"
           rel="noreferrer"
         >
